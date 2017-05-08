@@ -1,0 +1,26 @@
+<% include common/header.ejs %>
+<div id="p_prldr"><div class="contpre"><span class="svg_anm"></span></div></div>
+    <div class="topPanel">
+        <span id="cityWord">Місто</span>  <span id="mainCityName"></span>
+    </div>
+
+     <div class="myLocation">
+       <form class="form-inline">
+            <div class="form-group">
+                 <label for="cityName">Введіть місто</label>
+                 <input type="text" class="form-control" id="cityName" placeholder="Kiev">
+            </div>
+            <button class="btn btn-danger" id="see">Подивитись</button>
+       </form>
+     </div>
+
+     <div class="error">
+        <div class="errorCaption">Помилка!</div>
+        <div class="errorText">Можливо Ви ввели назву міста некорректно!</div>
+        <div class="errorLowerText">(Назву міста потрібно вводити англійською)</div>
+     </div>
+
+<div class="container-fluid list">
+      <div class="row-fluid" id="cloth-weather-list"></div>
+    </div>
+<% include common/footer.ejs %>

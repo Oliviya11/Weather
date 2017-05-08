@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Style</title>
+
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- LESS основний файл -->
+    <link rel="stylesheet/less" type="text/css" href="assets/less/main.less" />
+    <!-- LESS JavaScript компілятор -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+    
+  <!-- <script type="text/javascript" src="assets/js/weather.js"></script> -->
+
+
+</head>
+<body>
+    <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div></div>
+    <div class="topPanel">
+        Місто: <span id="mainCityName">Kiev</span>
+    </div>
+    <div class="myLocation">
+       <form class="form-inline">
+            <div class="form-group">
+                 <label for="cityName">Місто</label>
+                 <input type="text" class="form-control" id="cityName" placeholder="Kiev">
+            </div>
+            <button type="submit" class="btn btn-primary">Подивитись</button>
+       </form>
+     </div>
+    <div class="container-fluid list">
+      <div class="row-fluid" id="cloth-weather-list">
+         <div class="col-xs-1-5 col-md-1-5 col-lg-1-5 item">
+            <div class="thumbnail style-card">
+                <div class="weather">
+                    <div class="row">
+                    <div class="col-xs-8 col-md-8 col-lg-8 center">
+                        <div class="weekday">Понеділок</div>
+                        <div class="time">17:46</div>
+                     </div>
+                        <!--0&#176-->
+                    <div class="col-xs-4 col-md-4 col-lg-4"><img class="iconWeather" src="http://openweathermap.org/img/w/13d.png"></div> 
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                       
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm1">
+                        <span class="glyphicon glyphicon-tint hum"><span class="humText">70%</span></span>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm2">
+                        <span class="temp tempmin">6</span><span class="temp2">&#176</span>
+                    </div>
+                       
+                    </div>
+                    </div>
+                </div>
+                     <img class="icon" src="assets/images/coldosin.jpg">
+                       <div class="mainInfo">Легкий сніг</div>
+                 <div class="lowerWeather">Сніг Сніг</div>
+             </div>  
+          </div>  
+          <div class="col-xs-1-5 col-md-1-5 col-lg-1-5 item">
+            <div class="thumbnail style-card">
+                <div class="weather">
+                    <div class="row">
+                    <div class="col-xs-8 col-md-8 col-lg-8 center">
+                        <div class="weekday">Понеділок</div>
+                     </div>
+                        <!--0&#176-->
+                    <div class="col-xs-4 col-md-4 col-lg-4"><img class="iconWeather" src="http://openweathermap.org/img/w/13d.png"></div> 
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                       
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm1">
+                        <span class="temp tempmax">0</span><span class="temp2">&#176</span>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm2">
+                        <span class="temp tempmin">6</span><span class="temp2">&#176</span>
+                    </div>
+                       
+                    </div>
+                    </div>
+                </div>
+                     <img class="icon" src="assets/images/coldosin.jpg">
+                       <div class="mainInfo">Легкий сніг</div>
+                 <div class="lowerWeather">Сніг Сніг</div>
+             </div>  
+          </div>    
+          <div class="col-xs-1-5 col-md-1-5 col-lg-1-5 item">
+            <div class="thumbnail style-card">
+                <div class="weather">
+                    <div class="row">
+                    <div class="col-xs-8 col-md-8 col-lg-8 center">
+                        <div class="weekday">Понеділок</div>
+                     </div>
+                        <!--0&#176-->
+                    <div class="col-xs-4 col-md-4 col-lg-4"><img class="iconWeather" src="http://openweathermap.org/img/w/13d.png"></div> 
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                       
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm1">
+                        <span class="temp tempmax">0</span><span class="temp2">&#176</span>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm2">
+                        <span class="temp tempmin">6</span><span class="temp2">&#176</span>
+                    </div>
+                       
+                    </div>
+                    </div>
+                </div>
+                     <img class="icon" src="assets/images/coldosin.jpg">
+                       <div class="mainInfo">Легкий сніг</div>
+                 <div class="lowerWeather">Сніг Сніг</div>
+             </div>  
+          </div>    
+          <div class="col-xs-1-5 col-md-1-5 col-lg-1-5 item">
+            <div class="thumbnail style-card">
+                <div class="weather">
+                    <div class="row">
+                    <div class="col-xs-8 col-md-8 col-lg-8 center">
+                        <div class="weekday">Понеділок</div>
+                     </div>
+                        <!--0&#176-->
+                    <div class="col-xs-4 col-md-4 col-lg-4"><img class="iconWeather" src="http://openweathermap.org/img/w/13d.png"></div> 
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                       
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm1">
+                        <span class="temp tempmax">0</span><span class="temp2">&#176</span>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm2">
+                        <span class="temp tempmin">6</span><span class="temp2">&#176</span>
+                    </div>
+                       
+                    </div>
+                    </div>
+                </div>
+                     <img class="icon" src="assets/images/coldosin.jpg">
+                       <div class="mainInfo">Легкий сніг</div>
+                 <div class="lowerWeather">Сніг Сніг</div>
+             </div>  
+          </div>    
+          <div class="col-xs-1-5 col-md-1-5 col-lg-1-5 item">
+            <div class="thumbnail style-card">
+                <div class="weather">
+                    <div class="row">
+                    <div class="col-xs-8 col-md-8 col-lg-8 center">
+                        <div class="weekday">Понеділок</div>
+                     </div>
+                        <!--0&#176-->
+                    <div class="col-xs-4 col-md-4 col-lg-4"><img class="iconWeather" src="http://openweathermap.org/img/w/13d.png"></div> 
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                       
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm1">
+                        <span class="temp tempmax">0</span><span class="temp2">&#176</span>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-6 masterTemp tempm2">
+                        <span class="temp tempmin">6</span><span class="temp2">&#176</span>
+                    </div>
+                       
+                    </div>
+                    </div>
+                </div>
+                     <img class="icon" src="assets/images/coldosin.jpg">
+                       <div class="mainInfo">Легкий сніг</div>
+                 <div class="lowerWeather">Сніг Сніг</div>
+             </div>  
+          </div>    
+    </div>
+    </div>
+<!-- jQuery JavaScript -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!--Bootsrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script	type="text/javascript" src="assets/js/main.js">	</script>
+</body>
+</html>
